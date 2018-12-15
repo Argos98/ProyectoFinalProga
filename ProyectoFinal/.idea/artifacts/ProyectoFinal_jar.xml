@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProyectoFinal:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProyectoFinal_jar</output-path>
+    <root id="archive" name="ProyectoFinal.jar">
+      <element id="module-output" name="ProyectoFinal" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../AccesoBD/out/artifacts/AccesoBD_jar/AccesoBD.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/sqljdbc42.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

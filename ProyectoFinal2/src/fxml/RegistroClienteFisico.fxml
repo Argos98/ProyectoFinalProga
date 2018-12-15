@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="469.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.FXMLRegistroClienteFisicoController">
+   <children>
+      <Label layoutX="142.0" layoutY="14.0" text="Registro De Cliente Fisico">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="68.0" text="Escriba su Nombre:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNombre" layoutX="27.0" layoutY="104.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="282.0" layoutY="68.0" text="Escriba su primer apellido:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtApellido1" layoutX="282.0" layoutY="104.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="27.0" layoutY="148.0" text="Escriba su segundo apellido:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtApellido2" layoutX="27.0" layoutY="188.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="282.0" layoutY="148.0" text="Escriba su correo:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCorreo" layoutX="282.0" layoutY="188.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="27.0" layoutY="236.0" text="Escriba su telefono:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTelefono" layoutX="27.0" layoutY="270.0" prefHeight="25.0" prefWidth="206.0" />
+      <ComboBox fx:id="selecProvincia" layoutX="282.0" layoutY="270.0" prefHeight="25.0" prefWidth="206.0" promptText="Seleccione su provincia" />
+      <Label layoutX="282.0" layoutY="236.0" text="Seleccione su provincia">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="321.0" text="Escriba su canton:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCanton" layoutX="29.0" layoutY="357.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="282.0" layoutY="321.0" text="Escriba su direccion exacta:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDirecconExacta" layoutX="282.0" layoutY="357.0" prefHeight="25.0" prefWidth="206.0" />
+      <Button layoutX="71.0" layoutY="416.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Cancelar" />
+      <Button layoutX="325.0" layoutY="416.0" mnemonicParsing="false" onAction="#registrarClienteFisico" prefHeight="25.0" prefWidth="105.0" text="Acpatar" />
+   </children>
+</AnchorPane>

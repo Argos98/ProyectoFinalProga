@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane onDragDetected="#regitroClienteJuridico" prefHeight="718.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.FXMLRegistrarClienteJuridicoController">
+   <children>
+      <Label layoutX="120.0" layoutY="14.0" prefHeight="36.0" prefWidth="308.0" text="Registro De Cliente Juridico">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="70.0" text="Escriba el nombre:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNombre" layoutX="25.0" layoutY="105.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="275.0" layoutY="64.0" text="Escriba la identifiacion:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCedulaJuridica" layoutX="275.0" layoutY="105.0" prefHeight="25.0" prefWidth="206.0" />
+      <ComboBox fx:id="cbProvincia" layoutX="25.0" layoutY="183.0" prefHeight="25.0" prefWidth="206.0" promptText="Seleccione su provincia" />
+      <Label layoutX="25.0" layoutY="151.0" text="Seleccione su provincia:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="151.0" text="Escriba su canton:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCanton" layoutX="275.0" layoutY="183.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="158.0" layoutY="235.0" text="Escriba su ubicacion exacta:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDirecionExacta" layoutX="152.0" layoutY="266.0" prefHeight="25.0" prefWidth="206.0" />
+      <Separator layoutX="26.0" layoutY="329.0" prefHeight="0.0" prefWidth="458.0" style="-fx-background-color: black;" />
+      <Label layoutX="206.0" layoutY="342.0" prefHeight="36.0" prefWidth="102.0" text="Contacto">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="391.0" text="Escriba el numero de cedula:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCedulaCont" layoutX="25.0" layoutY="430.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="275.0" layoutY="391.0" text="Escriba el nombre:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNombreCont" layoutX="275.0" layoutY="430.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="26.0" layoutY="478.0" text="Escriba el primer apellido:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtApellido1Cont" layoutX="25.0" layoutY="516.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="275.0" layoutY="478.0" text="Escriba el segundo apellido:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtApellido2Cont" layoutX="275.0" layoutY="516.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="26.0" layoutY="562.0" text="Escriba el telefono:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTelefonoCont" layoutX="25.0" layoutY="597.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="274.0" layoutY="562.0" text="Escriba el correo:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCorreoCont" layoutX="275.0" layoutY="597.0" prefHeight="25.0" prefWidth="206.0" />
+      <Button layoutX="77.0" layoutY="649.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Cancelar" />
+      <Button layoutX="327.0" layoutY="649.0" mnemonicParsing="false" onAction="#regitroClienteJuridico" prefHeight="25.0" prefWidth="103.0" text="Aceptar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="669.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.FXMLMenuController">
+   <children>
+      <Accordion prefHeight="669.0" prefWidth="338.0">
+        <panes>
+          <TitledPane animated="false" text="Proyecto">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="-15.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="367.0" text="Nuevo Proyecto" />
+                        <Button layoutX="-15.0" layoutY="27.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="367.0" text="Lista De Proyectos" />
+                        <Button layoutX="-15.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="367.0" text="Modificar Proyecto" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Clientes">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="-15.0" layoutY="2.0" mnemonicParsing="false" onAction="#lazarElecionCliente" prefHeight="25.0" prefWidth="367.0" text="Nuevo Cliente" />
+                        <Button layoutX="-15.0" layoutY="27.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="367.0" text="Lista De Clientes" />
+                        <Button layoutX="-15.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="367.0" text="Modificar Cliente" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Tecnologias">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="-15.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="367.0" text="Nueva Tecnologia" />
+                        <Button layoutX="-15.0" layoutY="27.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="367.0" text="Lista De Las Tecnologias" />
+                        <Button layoutX="-15.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="367.0" text="Modificar Tecnologias" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="663.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.FXMLRegistroUsuarioController">
+   <children>
+      <Label layoutX="97.0" layoutY="30.0" text="Registro De Usuario">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="83.0" text="Digite su numero de cedula:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCedula" layoutX="101.0" layoutY="115.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label layoutX="97.0" layoutY="156.0" text="Digite su nombre:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNombre" layoutX="101.0" layoutY="181.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label layoutX="97.0" layoutY="221.0" text="Digite su primer apellido:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtApellido1" layoutX="101.0" layoutY="246.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label layoutX="100.0" layoutY="286.0" text="Digite su segundo apellido:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtApellido2" layoutX="101.0" layoutY="311.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label layoutX="97.0" layoutY="350.0" text="Digite su correo electronico:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCorreo" layoutX="101.0" layoutY="375.0" prefHeight="25.0" prefWidth="220.0" />
+      <Label layoutX="100.0" layoutY="414.0" text="Seleccione su genero:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="485.0" text="Escriba una contraseña:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="registrar" layoutX="233.0" layoutY="560.0" mnemonicParsing="false" onAction="#tomarDatosUsuario" prefHeight="25.0" prefWidth="85.0" text="Registrar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="salir" layoutX="101.0" layoutY="560.0" mnemonicParsing="false" onAction="#regresarLogin" prefHeight="25.0" prefWidth="85.0" text="Salir">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pfContrasena" layoutX="101.0" layoutY="510.0" prefHeight="25.0" prefWidth="220.0" />
+      <ComboBox fx:id="generoBox" layoutX="104.0" layoutY="439.0" prefHeight="25.0" prefWidth="220.0" promptText="Selecione su genero" visibleRowCount="1" />
+   </children>
+</AnchorPane>
